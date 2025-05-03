@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Playwright specific
+playwright-report/
+test-results/
+screenshots/
+
+# Cucumber specific
+cucumber-report.json
+cucumber-report.html
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Optional: Ignore package-lock.json (if you don't want to lock dependencies)
+package-lock.json
+
+# Optional: Ignore build artifacts (if applicable)
+dist/
+build/

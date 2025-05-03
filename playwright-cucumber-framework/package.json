@@ -1,0 +1,27 @@
+{
+  "name": "playwright-cucumber-framework",
+  "version": "1.0.0",
+  "description": "A framework for testing with Playwright and Cucumber",
+  "main": "runner.js",
+  "scripts": {
+    "test": "node runner.js && node generate-report.js",
+    "test:watch": "cucumber-js --watch"
+  },
+  "dependencies": {
+    "chai": "^5.2.0",
+    "dotenv": "^16.5.0",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.8.8"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [],
+  "type": "commonjs"
+}
