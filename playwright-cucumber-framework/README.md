@@ -1,5 +1,4 @@
-npx playwright codegen https://example.com
-npx cucumber-js
+
 # Playwright-Cucumber Framework
 
 This project is a test automation framework built using **Playwright** and **Cucumber**. It allows you to write end-to-end tests in Gherkin syntax and execute them with Playwright.
@@ -23,17 +22,15 @@ Before you begin, ensure you have the following installed:
    git clone <repository-url>
    cd playwright-cucumber-framework
 
-
-
    npm install
-
    npx playwright install
    npx cucumber-js
-npm test
-
-npm run test:watch
+   npm test
+   npm run test:watch
    npx playwright codegen https://example.com
 
+
+### Key Features of This `README.md`:
    playwright-cucumber-framework/
 ├── features/
 │   ├── specs/                     # Feature files (Gherkin syntax)
@@ -54,10 +51,6 @@ npm run test:watch
 ├── .gitignore                     # Files to ignore in Git
 └── README.md                      # Project documentation
 
-
-
-
----
 
 ### Key Features of This `README.md`:
 1. **Installation Section**:
